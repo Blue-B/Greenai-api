@@ -108,7 +108,7 @@ DuckDNS를 사용하여 Static IP로 연결
 ├── Dockerfile         # Docker 설정
 ├── static/
 │   └── index.html     # 정적 웹페이지
-└── README.md          # 이 파일
+└── README.md          # 프로젝트 설명서
 ```
 
 ## 배포 구조
