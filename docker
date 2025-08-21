@@ -1,0 +1,27 @@
+ # === Docker 명령어 ===
+  # Docker 이미지 빌드
+  docker build -t greenai-app .
+
+  # Docker 실행 (포그라운드)
+  docker run -p 80:8000 greenai-app
+  # 접속: http://localhost
+
+  # Docker 실행 (백그라운드)
+  docker run -d -p 80:8000 --name greenai
+  greenai-app
+
+  # Docker 상태 확인
+  docker ps
+  docker ps -a
+
+  # Docker 로그 확인
+  docker logs greenai
+
+  # Docker 중지
+  docker stop greenai
+
+  # Docker 컨테이너 삭제
+  docker rm greenai
+
+  # Docker 이미지 삭제
+  docker rmi greenai-app
